@@ -1,4 +1,5 @@
-const baseUrl = `https://www.thecocktaildb.com/api/json/v2/${apiKey}/`
+const myKey = config.apiKey;
+const baseUrl = `https://www.thecocktaildb.com/api/json/v2/${myKey}/`
 const ingredientUrl = baseUrl + `filter.php?i=`
 const cocktailUrl = baseUrl + `search.php?s=`
 const randomCocktailUrl = baseUrl + `random.php`
