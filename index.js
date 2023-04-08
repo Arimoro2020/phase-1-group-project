@@ -1,7 +1,7 @@
 const baseUrl = `https://www.thecocktaildb.com/api/json/v2/${apiKey}/`
-const ingredientUrl = baseUrl + 'filter.php?i='
-const cocktailUrl = baseUrl + 'search.php?s='
-const randomCocktailUrl = baseUrl + 'random.php'
+const ingredientUrl = baseUrl + `filter.php?i=`
+const cocktailUrl = baseUrl + `search.php?s=`
+const randomCocktailUrl = baseUrl + `random.php`
 
 const submitForm = document.getElementById('search-form')
 const resultsList = document.getElementById('results-list')
@@ -11,6 +11,7 @@ const measurementsList = document.getElementById('cocktail-measurements')
 const ingredientsList = document.getElementById('cocktail-ingredients')
 const instructionP = document.getElementById('instruction')
 const cocktailImage = document.getElementById('image')
+
 
 
 submitForm.addEventListener('submit', (e) => {
