@@ -1,6 +1,7 @@
 # phase-1-group-project
 
 ## Cocktail/Recipe Finder
+[Visit the Cocktail Recipe Search Website](https://arimoro2020.github.io/phase-1-group-project/)
 
 ![Website](https://img.shields.io/website?url=https%3A%2F%2Farimoro2020.github.io%2Fphase-1-group-project%2F)
 
